@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dxriu6d505p44"]
+
+[ext_resource type="Shader" path="res://vat.gdshader" id="1_4cmfk"]
+[ext_resource type="Texture2D" uid="uid://5rpytpf2abck" path="res://Sphere.tga" id="2_8t6yo"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_4cmfk")
+shader_parameter/scale = 0.2
+shader_parameter/frame = null
+shader_parameter/colorRange = 0.3
+shader_parameter/midPoint = 0.5
+shader_parameter/low_color = Color(0.392157, 0.329412, 0.478431, 1)
+shader_parameter/mid_color = Color(0.72, 0.15552, 0.1152, 1)
+shader_parameter/high_color = Color(0.88, 0.4972, 0.3696, 1)
+shader_parameter/offTex = ExtResource("2_8t6yo")
